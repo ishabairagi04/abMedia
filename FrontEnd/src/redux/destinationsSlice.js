@@ -5,32 +5,32 @@ const initialState = {
     {
       name: 'JAMMU & KASHMIR',
       price: '₹4999/-',
-      image: '\img.jpg',
+      image: '\J&K.jpg',
     },
     {
       name: 'HIMACHAL PRADESH',
       price: '₹4999/-',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Himachal_Pradesh.jpg',
+      image: '\Himachal.jpg',
     },
     {
       name: 'GOA',
       price: '₹4999/-',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/f/f4/Goa_beach.jpg',
+      image: '\Goa.jpg',
     },
     {
       name: 'ASSAM',
       price: '₹4999/-',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Tea_Gardens%2C_Assam.jpg',
+      image: 'Assam.jpg',
     },
     {
       name: 'MAHARASHTRA',
       price: '₹4999/-',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/f/fc/Maharashtra_western_ghats.jpg',
+      image: '\Maharashtra.jpg',
     },
     {
       name: 'KERELA',
       price: '₹4999/-',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/7/7f/Backwaters_in_Kerala.jpg',
+      image: '\Kerela.jpg',
     },
   ],
 };
