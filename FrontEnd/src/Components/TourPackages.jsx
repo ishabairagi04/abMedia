@@ -5,7 +5,7 @@ export default function TourPackages() {
   const tours = useSelector((state) => state.tours.list);
 
   return (
-    <div className="max-w-7xl mx-auto text-center">
+    <div className="max-w-7xl mx-auto text-center mt-8">
       <h2 className="text-2xl md:text-4xl font-bold text-teal-700 mb-2">
         Top Selling Tour Packages of India
       </h2>
