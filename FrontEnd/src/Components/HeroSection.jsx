@@ -6,35 +6,35 @@ const HeroSection = () => {
 
   return (
     <section
-      className="relative h-[90vh] bg-contain bg-center flex items-end"
+      className="relative h-[90vh] bg-cover bg-center flex items-end"
       style={{
-       backgroundImage: "url('/road-trip-in-india.jpg')"
-
+        backgroundImage: "url('/road-trip-in-india.jpg')",
       }}
     >
-      <div className="absolute inset-0 " />
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-opacity-40" />
 
       {/* Content */}
-      <div className="relative z-10 w-full max-w-6xl mx-auto px-6 py-12 lg:py-20 text-white">
+      <div className="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-6 py-10 md:py-32 text-white">
         <div className="max-w-xl">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight">
             {title.split("Adventure")[0]}
             <br />
             <span className="text-yellow-400">Adventure</span>
           </h1>
-          <p className="text-lg md:text-xl mb-6">{subtitle}</p>
-          <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-6 py-3 rounded-full transition">
+          <p className="text-md sm:text-lg font-semibold mb-6">{subtitle}</p>
+          <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-3 rounded-full text-lg sm:text-xl transition">
             BOOK NOW
           </button>
         </div>
       </div>
 
       {/* Feature Row */}
-      <div className="absolute bottom-0 w- bg-black bg-opacity text-white">
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between px-6 py-4 text-sm sm:text-base text-center">
-          <p className="font-semibold mb-2 sm:mb-0">Easy Booking</p>
-          <p className="font-semibold mb-2 sm:mb-0">Curated Destinations</p>
-          <p className="font-semibold">Trusted Support</p>
+      <div className="absolute bottom-0 w-full sm:w-[60%] bg-black bg-opacity-50 text-white">
+        <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-white text-center text-sm sm:text-base font-semibold">
+          <p className="py-3">Easy Booking</p>
+          <p className="py-3">Curated Destinations</p>
+          <p className="py-3">Trusted Support</p>
         </div>
       </div>
     </section>
