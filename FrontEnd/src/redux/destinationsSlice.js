@@ -5,7 +5,7 @@ const initialState = {
     {
       name: 'JAMMU & KASHMIR',
       price: '₹4999/-',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Kashmir_valley.jpg/640px-Kashmir_valley.jpg',
+      image: '\img.jpg',
     },
     {
       name: 'HIMACHAL PRADESH',
