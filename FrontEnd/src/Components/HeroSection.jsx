@@ -20,7 +20,7 @@ const HeroSection = () => {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight">
             {title.split("Adventure")[0]}
             <br />
-            <span className="text-yellow-400">Adventure</span>
+            <span className="">Adventure</span>
           </h1>
           <p className="text-md sm:text-lg font-semibold mb-6">{subtitle}</p>
           <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-3 rounded-full text-lg sm:text-xl transition">
